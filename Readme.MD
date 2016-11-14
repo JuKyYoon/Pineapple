@@ -8,9 +8,9 @@
    https://youtu.be/xO1TlHzZHFU?list=PLG7te9eYUi7vXZf7O6Fd2YCnJlx5YG9qq
 # Design
 
- - who ?
- - how ?
- - This item is definitely determined
+ - who : jk
+ - how : using the photoshop
+ 
  
  
 # Research
