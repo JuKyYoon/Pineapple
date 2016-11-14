@@ -7,7 +7,7 @@
         <item name="colorPrimaryDark">#9affc6</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="windowNoTitle">true</item>
-        <item name="colorPrimary">#9affc6</item>
+        
     </style>
 
 </resources>
