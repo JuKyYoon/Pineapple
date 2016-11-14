@@ -1,3 +1,8 @@
+# Project INFO
+ - Application Name : For Future
+ 
+ - Support : Android ( 4.4 kitkat ++ version. )
+
 # Preparation
  - Install Android Studio for mac 
    https://developer.android.com/studio/index.html?hl=ko
