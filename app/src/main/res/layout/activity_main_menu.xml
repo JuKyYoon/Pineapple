@@ -7,24 +7,51 @@
     android:background="#9affc6"
     android:id="@+id/main_menu">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"/>
     <!--실행 버튼 세로로 두기-->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="right"
+        android:paddingLeft="129dp"
+
+        android:layout_marginTop="150dp"
         >
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:text="start"
+            android:onClick="onClick"
 
-            android:text="Exit"
             />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="view"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="setting"
+            android:onClick="onClick"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:id="@+id/exit_button"
+            android:onClick="onClick"/>
 
     </LinearLayout>
 </LinearLayout>
