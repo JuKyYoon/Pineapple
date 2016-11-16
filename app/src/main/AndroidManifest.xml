@@ -23,6 +23,11 @@
             android:theme="@style/AppTheme">
 
         </activity>
+
+        <activity android:name=".SurveyActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>

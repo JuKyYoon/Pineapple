@@ -1,5 +1,6 @@
 package pineapple.for_future;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -8,10 +9,6 @@ import android.widget.Toast;
 public class MainMenuActivity extends AppCompatActivity {
 
     private long lastTimeBackPressed; //마지막으로 종료버튼을 누른 시간
-
-
-
-
 
 
     @Override
@@ -32,9 +29,16 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
+        Intent intent = new Intent(this, SurveyActivity.class);
+
+
         switch (view.getId()){
             case R.id.exit_button:
                 finish();
+                break;
+            case R.id.start:
+                startActivity(intent);
+                break;
         }
     }
 

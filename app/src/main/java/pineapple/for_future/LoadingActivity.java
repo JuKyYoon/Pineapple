@@ -2,7 +2,6 @@ package pineapple.for_future;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-
 /**
  * Created by jk on 2016. 11. 16..
  */
