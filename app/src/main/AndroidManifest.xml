@@ -24,7 +24,7 @@
 
         </activity>
 
-        <activity android:name=".SurveyActivity"
+        <activity android:name=".Survey1Activity"
             android:theme="@style/AppTheme">
 
         </activity>

@@ -29,7 +29,7 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
-        Intent intent = new Intent(this, SurveyActivity.class);
+        Intent intent = new Intent(this, Survey1Activity.class);
 
 
         switch (view.getId()){
