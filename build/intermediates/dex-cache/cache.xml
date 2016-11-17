@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_83ab4450bcda5a489c89730695727b056926a0fe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -25,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6f0c11fbe52b430fce3419a88433f72d587185c1">
+        sha1="f66c8625184599fc2ccefc47c070280387ecc4a6">
         <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7dce185d89dd62f0c8ced190219b03328a3660e/classes.dex" />
     </item>
     <item
@@ -57,24 +48,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/wonbae/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_0ce4e1f1798cac33f6816bd7933cdfa98cca8fb1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_6b04e627b98bf1298dbf271030068aa2690d2046/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -84,20 +57,11 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_d7b4629baca14fd04fba2b17c767e0357fd8355d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/wonbae/Pineapple/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d315cbc8d03a205c76af403076957dce7ebb909c">
+        sha1="0a1c5cafd365ae00746d46451b6a9f3d873c9350">
         <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6bf3221e5f15da77bcb0858dd8979fddb772778d/classes.dex" />
     </item>
     <item
@@ -120,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_e5ac72debce6edbb8501685da937dbfc96370068/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -138,21 +93,66 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c95b086d2b165cf17c0f3ee0bdffc0669b10af30/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
         <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_4ac82995628147987572e1ebee24a78f3cf8b434/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_83ab4450bcda5a489c89730695727b056926a0fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_0ce4e1f1798cac33f6816bd7933cdfa98cca8fb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_6b04e627b98bf1298dbf271030068aa2690d2046/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_d7b4629baca14fd04fba2b17c767e0357fd8355d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_e5ac72debce6edbb8501685da937dbfc96370068/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/wonbae/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_c95b086d2b165cf17c0f3ee0bdffc0669b10af30/classes.dex" />
     </item>
 
 </items>

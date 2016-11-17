@@ -11,6 +11,12 @@
         android:layout_height="fill_parent"
         android:layout_weight="1">
 
+        <TextView
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -24,21 +30,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/answer2a"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
         <Button
             android:text="b"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/answer2b"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
         <Button
             android:text="c"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/answer2c"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="onClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,21 +61,24 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/anwer2d"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/answer2e"
             android:layout_weight="1"
-            android:text="e" />
+            android:text="e"
+            android:onClick="onClick" />
 
         <Button
             android:text="f"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/answer2f"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
     </LinearLayout>
 </LinearLayout>
