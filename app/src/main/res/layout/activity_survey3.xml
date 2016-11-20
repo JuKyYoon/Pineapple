@@ -16,7 +16,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="50sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -25,26 +26,29 @@
         android:layout_height="fill_parent"
         android:layout_weight="3">
 
-        <Button
+        <CheckBox
             android:text="a"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/answer3a"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_a"
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
-        <Button
+        <CheckBox
             android:text="b"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/answer3b"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_b"
+            android:layout_weight="1"
+            android:onClick="onClick" />
 
-        <Button
+        <CheckBox
             android:text="c"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/answer3c"
-            android:layout_weight="1" />
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_c"
+            android:layout_weight="1"
+            android:onClick="onClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -53,26 +57,28 @@
         android:layout_height="fill_parent"
         android:layout_weight="3">
 
-        <Button
+        <CheckBox
             android:text="d"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/anwer3d"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/answer3e"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_d"
             android:layout_weight="1"
-            android:text="e" />
+            android:onClick="onClick" />
 
-        <Button
+        <CheckBox
+            android:text="e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_e"
+            android:layout_weight="1"
+            android:onClick="onClick" />
+
+        <CheckBox
             android:text="f"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/answer3f"
-            android:layout_weight="1" />
-
+            android:layout_height="wrap_content"
+            android:id="@+id/answer_f"
+            android:layout_weight="1"
+            android:onClick="onClick" />
     </LinearLayout>
 </LinearLayout>

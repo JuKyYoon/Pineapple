@@ -3,6 +3,7 @@ package pineapple.for_future;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 
 /**
  * Created by jk on 2016. 11. 16..
@@ -17,11 +18,12 @@ public class Survey3Activity extends Activity{
 
     }
 
-    //public void onClick(View view){
-    //   switch (view.getId()){
-    //        case R.id.back:
-    //            finish();
-    //            break;
-    //    }
-    //}
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_BACK:
+                return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 }
