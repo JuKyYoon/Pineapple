@@ -29,11 +29,12 @@ public class Survey3Activity extends Activity{
     }
 
     public void onClick(View view){
-        switch (view.getId()){
-            case R.id.back:
-                finish();
-                break;
-        }
+//        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
+//        startActivity(intent);
+        finish();
+        startActivity(new Intent(Survey3Activity.this, FinishActivity.class));
+        overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+
 
     }
 }

@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6728251c60d16294f9bdcbaa255cfe89f4866ebf">
+        sha1="6b22f93dffb4042ace99da48d6fe592ede7e31ce">
         <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_0bb7be5dd5bbd1b8d3c35d2e13e877305395ea95.jar" />
     </item>
     <item
@@ -70,7 +70,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="769f4ce64874273805ae27f9022ede7afd163275">
+        sha1="252dd72610c08cc16c6979b43d62924e415dd5ac">
         <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/instant-run_5fd5278fe43adf16f28cc2c7a409d1adcf1308f9.jar" />
     </item>
     <item

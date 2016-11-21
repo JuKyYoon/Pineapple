@@ -39,6 +39,11 @@
             android:theme="@style/AppTheme">
 
         </activity>
+
+        <activity android:name=".FinishActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>

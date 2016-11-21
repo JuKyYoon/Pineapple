@@ -5,6 +5,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.CheckBox;
+
+
+
 
 /**
  * Created by jk on 2016. 11. 16..
@@ -16,6 +20,10 @@ public class Survey1Activity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey1);
         Intent intent = getIntent();
+        CheckBox answer_1_1 = (CheckBox) findViewById(R.id.answer_1_1);
+        CheckBox answer_1_2 = (CheckBox) findViewById(R.id.answer_1_2);
+        //option1.isChecked() 는 리턴값이 불
+
 
     }
 
