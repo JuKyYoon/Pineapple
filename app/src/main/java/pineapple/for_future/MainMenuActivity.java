@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 public class MainMenuActivity extends AppCompatActivity {
-
+    static int num = 0;
     private long lastTimeBackPressed; //마지막으로 종료버튼을 누른 시간
 
 
@@ -15,6 +15,7 @@ public class MainMenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+
     }
 
     @Override
@@ -29,7 +30,7 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
-        Intent intent = new Intent(this, Survey1Activity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
 
 
         switch (view.getId()){
