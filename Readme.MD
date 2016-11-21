@@ -28,9 +28,10 @@
    https://youtu.be/xO1TlHzZHFU?list=PLG7te9eYUi7vXZf7O6Fd2YCnJlx5YG9qq
 
 # Design
-
- - who : jk
- - how : using the photoshop
+ - Team Logo : 60%
+ - Application Icon : 70%
+ - Loading Image : 0 %
+ - Menu Background : 0% 
  
  
  
@@ -46,5 +47,6 @@
 # Activity
  - Menu Activity 
  - Loading Activity
- - Survey Activity : 일단 하나
+ - Survey Activity 
+ 
  
