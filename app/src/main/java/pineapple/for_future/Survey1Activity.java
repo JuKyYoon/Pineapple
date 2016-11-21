@@ -20,10 +20,12 @@ public class Survey1Activity extends Activity{
     }
 
     public void onClick(View view){
-        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
+//        startActivity(intent);
+        finish();
         startActivity(new Intent(Survey1Activity.this, Survey2Activity.class));
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
+
 
     }
 
