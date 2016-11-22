@@ -35,10 +35,10 @@ public class Survey3Activity extends Activity{
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);
         finish();
-        CheckBox answer_3_2 = (CheckBox) findViewById(R.id.answer_3_2);
+        CheckBox answer_3_3 = (CheckBox) findViewById(R.id.answer_3_3);
         //option1.isChecked() 는 리턴값이 불
 
-        if(answer_3_2.isChecked()){
+        if(answer_3_3.isChecked()){
             one.setOk(1);
         }
         else{

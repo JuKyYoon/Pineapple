@@ -27,10 +27,10 @@ public class Survey2Activity extends Activity{
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);
         finish();
-        CheckBox answer_2_2 = (CheckBox) findViewById(R.id.answer_2_2);
+        CheckBox answer_2_4 = (CheckBox) findViewById(R.id.answer_2_4);
         //option1.isChecked() 는 리턴값이 불
 
-        if(answer_2_2.isChecked()){
+        if(answer_2_4.isChecked()){
             one.setOk(1);
         }
         else{

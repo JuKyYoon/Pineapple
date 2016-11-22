@@ -37,7 +37,7 @@ public class Survey4Activity extends Activity{
         else{
             one.setNo(1);
         }
-        startActivity(new Intent(Survey4Activity.this, FinishActivity.class));
+        startActivity(new Intent(Survey4Activity.this, Survey5Activity.class));
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
 
 

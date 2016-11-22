@@ -54,6 +54,11 @@
             android:theme="@style/AppTheme">
 
         </activity>
+
+        <activity android:name=".Survey5Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>

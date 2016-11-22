@@ -26,6 +26,7 @@ public class FinishActivity extends Activity{
         TextView pr_ok = (TextView)findViewById(R.id.ok);
         TextView pr_no = (TextView)findViewById(R.id.no);
         pr_input_id.setText(one.getName());
+
         String s1 = String.valueOf(one.getOk());
         pr_ok.setText(s1);
         String s2 = String.valueOf(one.getNo());
