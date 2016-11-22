@@ -5,8 +5,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="Main Menu"
+        android:icon="@mipmap/eyecon"
+        android:label="IQ QUEST"
         android:supportsRtl="true"
         >
 
