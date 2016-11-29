@@ -45,6 +45,7 @@
             android:layout_height="wrap_content"
             android:text="view"
             android:layout_gravity="right"
+            android:id="@+id/view"
             android:layout_marginRight="30dp"
             android:onClick="onClick"
             />
