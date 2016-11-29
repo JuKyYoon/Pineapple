@@ -1,10 +1,12 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import pineapple.for_future.R;
 
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;

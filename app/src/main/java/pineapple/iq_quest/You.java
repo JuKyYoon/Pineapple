@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 /**
  * Created by jk on 2016. 11. 21..

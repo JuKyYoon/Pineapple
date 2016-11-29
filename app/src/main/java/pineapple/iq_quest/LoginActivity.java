@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import static pineapple.for_future.MainMenuActivity.num;
+import pineapple.for_future.R;
+
+import static pineapple.iq_quest.MainMenuActivity.num;
 
 /**
  * Created by jk on 2016. 11. 21..

@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import org.junit.Test;
 

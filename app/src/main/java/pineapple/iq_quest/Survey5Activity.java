@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,9 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.CheckBox;
 
-import static pineapple.for_future.LoginActivity.one;
+import pineapple.for_future.R;
+
+import static pineapple.iq_quest.LoginActivity.one;
 
 
 /**

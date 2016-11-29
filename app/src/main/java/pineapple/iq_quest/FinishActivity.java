@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import static pineapple.for_future.LoginActivity.one;
+import pineapple.for_future.R;
 
 /**
  * Created by jk on 2016. 11. 16..
@@ -25,11 +25,11 @@ public class FinishActivity extends Activity{
         TextView pr_input_id = (TextView)findViewById(R.id.printname);
         TextView pr_ok = (TextView)findViewById(R.id.ok);
         TextView pr_no = (TextView)findViewById(R.id.no);
-        pr_input_id.setText(one.getName());
+        pr_input_id.setText(LoginActivity.one.getName());
 
-        String s1 = String.valueOf(one.getOk());
+        String s1 = String.valueOf(LoginActivity.one.getOk());
         pr_ok.setText(s1);
-        String s2 = String.valueOf(one.getNo());
+        String s2 = String.valueOf(LoginActivity.one.getNo());
         pr_no.setText(s2);
 
 

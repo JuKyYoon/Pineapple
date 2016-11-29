@@ -1,4 +1,4 @@
-package pineapple.for_future;
+package pineapple.iq_quest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,19 +7,22 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.CheckBox;
 
-import static pineapple.for_future.LoginActivity.one;
-import static pineapple.for_future.R.id.answer_1_2;
+import pineapple.for_future.R;
+
+import static pineapple.iq_quest.LoginActivity.one;
+
 
 /**
  * Created by jk on 2016. 11. 16..
  */
 
-public class Survey2Activity extends Activity{
+public class Survey4Activity extends Activity{
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_survey2);
-        Intent intent = getIntent();
+        setContentView(R.layout.activity_survey4);
+
+
 
     }
 
@@ -27,16 +30,16 @@ public class Survey2Activity extends Activity{
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);
         finish();
-        CheckBox answer_2_4 = (CheckBox) findViewById(R.id.answer_2_4);
+        CheckBox answer_4_2 = (CheckBox) findViewById(R.id.answer_4_2);
         //option1.isChecked() 는 리턴값이 불
 
-        if(answer_2_4.isChecked()){
+        if(answer_4_2.isChecked()){
             one.setOk(1);
         }
         else{
             one.setNo(1);
         }
-        startActivity(new Intent(Survey2Activity.this, Survey3Activity.class));
+        startActivity(new Intent(Survey4Activity.this, Survey5Activity.class));
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
 
 
