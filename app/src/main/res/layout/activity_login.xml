@@ -25,6 +25,8 @@
             android:textColorHint="#000000"
             android:id="@+id/id"
 
+            android:inputType="text"
+            android:imeOptions="actionNext"
             />
 
         <EditText
@@ -35,6 +37,8 @@
             android:textColorHint="#000000"
             android:id="@+id/password"
 
+            android:inputType="text"
+            android:imeOptions="actionDone"
             />
 
 
