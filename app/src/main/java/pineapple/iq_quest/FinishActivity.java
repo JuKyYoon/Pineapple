@@ -23,9 +23,12 @@ public class FinishActivity extends Activity{
         Intent intent = getIntent();
 
         TextView pr_input_id = (TextView)findViewById(R.id.printname);
+        TextView pr_input_age = (TextView)findViewById(R.id.age);
         TextView pr_ok = (TextView)findViewById(R.id.ok);
         TextView pr_no = (TextView)findViewById(R.id.no);
+
         pr_input_id.setText(LoginActivity.one.getName());
+        pr_input_age.setText(LoginActivity.one.getAge());
 
         String s1 = String.valueOf(LoginActivity.one.getOk());
         pr_ok.setText(s1);

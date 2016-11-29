@@ -5,7 +5,7 @@ package pineapple.iq_quest;
  */
 
 public class You{
-    private int age = 0;
+    private String age;
     private String name;
     private int ok=0;
     private int no=0;
@@ -15,7 +15,7 @@ public class You{
 
     public void setOk(int ok) {this.ok += ok;}
 
-    public int getAge() {return age;}
+    public String getAge() {return age;}
 
     public String getName() {return name;}
 
@@ -24,7 +24,7 @@ public class You{
     public int getOk(){return ok;}
     public int getNo(){return no;}
 
-    public You(String name, int age, int num){
+    public You(String name, String age, int num){
         this.name = name;
         this.age = age;
         this.num = num;

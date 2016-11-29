@@ -31,9 +31,9 @@ public class LoginActivity extends Activity{
     {
         Intent intent = new Intent(this, Survey1Activity.class);
         EditText input_id = (EditText)findViewById(R.id.id);
-        EditText password = (EditText)findViewById(R.id.password);
+        EditText password = (EditText)findViewById(R.id.age);
         String id = input_id.getText().toString();
-        String pr = password.getText().toString();
+        String age = password.getText().toString();
 
         //엔터키 제어
         input_id.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -69,7 +69,7 @@ public class LoginActivity extends Activity{
         switch (view.getId())
         {
             case R.id.login:
-                one = new You(id,20,num++);
+                one = new You(id,age,num++);
 
 //                intent.putExtra("value", id);  //key, data
 //                intent.putExtra("pr", pr);

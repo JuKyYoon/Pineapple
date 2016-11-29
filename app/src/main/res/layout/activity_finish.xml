@@ -21,6 +21,13 @@
         android:id="@+id/printname"
         android:textSize="20sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ex"
+        android:id="@+id/age"
+        android:textSize="20sp"/>
+
 
     <TextView
         android:layout_width="wrap_content"

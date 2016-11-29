@@ -21,7 +21,7 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:hint = "ID"
+            android:hint = "이름을 입력하세요"
             android:textColorHint="#000000"
             android:id="@+id/id"
 
@@ -33,11 +33,10 @@
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:hint = "password"
+            android:hint = "나이를 입력하세요"
             android:textColorHint="#000000"
-            android:id="@+id/password"
-
-            android:inputType="text"
+            android:id="@+id/age"
+            android:inputType="numberDecimal"
             android:imeOptions="actionDone"
             />
 
@@ -51,8 +50,8 @@
         android:layout_width="90dp"
         android:layout_height="90dp"
         android:layout_marginRight="10dp"
-        android:text="Login"
-        android:layout_marginBottom="30dp"
+        android:text="START"
+
         android:id="@+id/login"
         android:onClick="onClick"
 
