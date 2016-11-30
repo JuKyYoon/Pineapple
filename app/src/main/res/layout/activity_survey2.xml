@@ -84,5 +84,16 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="41dp"
+        android:id="@+id/chron"
+        android:textColor="#00000000"
+        android:background="#00000000"
+        android:layerType="hardware" />
 
 </RelativeLayout>

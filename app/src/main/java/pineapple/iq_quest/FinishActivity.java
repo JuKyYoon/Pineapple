@@ -17,6 +17,7 @@ import pineapple.iq_quest.database.DbOpenHelper;
 import pineapple.iq_quest.util.DLog;
 
 import static android.content.ContentValues.TAG;
+import static pineapple.iq_quest.Survey1Activity.time;
 
 /**
  * Created by jk on 2016. 11. 16..
@@ -40,6 +41,7 @@ public class FinishActivity extends Activity{
         TextView pr_input_age = (TextView)findViewById(R.id.age);
         TextView pr_ok = (TextView)findViewById(R.id.ok);
         TextView pr_no = (TextView)findViewById(R.id.no);
+        TextView pr_time = (TextView)findViewById(R.id.timeView);
 
         pr_input_id.setText(LoginActivity.one.getName());
         pr_input_age.setText(LoginActivity.one.getAge());
@@ -48,6 +50,8 @@ public class FinishActivity extends Activity{
         pr_ok.setText(s1);
         String s2 = String.valueOf(LoginActivity.one.getNo());
         pr_no.setText(s2);
+        String s3 = String.valueOf(time);
+        pr_time.setText(s3);
 
 
 

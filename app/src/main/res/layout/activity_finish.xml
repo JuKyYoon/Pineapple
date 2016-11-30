@@ -43,4 +43,11 @@
         android:text="ex"
         android:id="@+id/no"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="ex"
+        android:id="@+id/timeView" />
+
 </LinearLayout>
