@@ -20,24 +20,24 @@ import static pineapple.iq_quest.LoginActivity.one;
 
 public class Survey1Activity extends Activity{
 
-    Chronometer chron;
-    public static long time = 0;
+    Chronometer chron; //chron 선언
+    public static long time = 0; //계속 레이아웃 당 시간을 더해갈 time 변수 선언
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey1);
 
-        chron = (Chronometer) findViewById(R.id.chron);
-        chron.setBase(SystemClock.elapsedRealtime());
-        chron.start();
+        chron = (Chronometer) findViewById(R.id.chron); //
+        chron.setBase(SystemClock.elapsedRealtime());   //chron의 시간을 지정해주고 시간 측정 시작
+        chron.start();                                  //
     }
 
     public void onClick(View view){
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);
-        long current = SystemClock.elapsedRealtime() - chron.getBase();
-        time += current / 1000;
+        long current = SystemClock.elapsedRealtime() - chron.getBase(); //정답을 누르는 버튼을 눌렀을 떄, 시간을 기록
+        time += current / 1000; //나노초 단위이기 때문에 1000을 나눠 초 단위로 만들어주고 time에 기록을 쌓아나감
         chron.stop();
 
         finish();
