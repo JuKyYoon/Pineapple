@@ -37,10 +37,10 @@ public class Survey4Activity extends Activity{
     }
 
     /**
-     * Method onClick 버튼 클릭 처리
-     * @return 정답처리, 다음 엑티비티로 넘어가기
+     * On click.
+     *
+     * @param view the view
      */
-
     public void onClick(View view){
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);

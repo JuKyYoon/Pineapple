@@ -1,6 +1,6 @@
 /**
  * 2016-12-20
- * 어플의 1번째 문제 엑티비티
+ * First survey activity in the application
  * @author Pineapple
  * @version 1.0
  */
@@ -22,52 +22,55 @@ import static pineapple.iq_quest.LoginActivity.one;
 
 public class Survey1Activity extends Activity{
 
-    Chronometer chron; //chron 선언
-    public static long time = 0; //계속 레이아웃 당 시간을 더해갈 time 변수 선언
+    Chronometer chron; // Chronometer declaration to measure time.
+    public static long time = 0; // Declaration of 'time' to add more time per layout.
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey1);
 
-        chron = (Chronometer) findViewById(R.id.chron); //
-        chron.setBase(SystemClock.elapsedRealtime());   //chron의 시간을 지정해주고 시간 측정 시작
-        chron.start();                                  //
+        chron = (Chronometer) findViewById(R.id.chron);
+        chron.setBase(SystemClock.elapsedRealtime());   //Set the chronometer time.
+        chron.start();                                  //Start time measurement.
     }
 
-    /**
-     * Method onClick 버튼 클릭 처리
-     * @return 정답처리, 다음 엑티비티로 넘어가기
-     */
 
+    /**
+     * On click.
+     * The method that will handle the event when the button in the activity is pressed.
+     * I will distinguish the wrong answer or the correct answer, and then proceed to the next activity.
+     * @param view the view
+     */
     public void onClick(View view){
-//        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
-//        startActivity(intent);
-        long current = SystemClock.elapsedRealtime() - chron.getBase(); //정답을 누르는 버튼을 눌렀을 떄, 시간을 기록
-        time += current / 1000; //나노초 단위이기 때문에 1000을 나눠 초 단위로 만들어주고 time에 기록을 쌓아나감
-        chron.stop();
+        long current = SystemClock.elapsedRealtime() - chron.getBase(); //Record the time when you press the answer button.
+        time += current / 1000; //Since the unit is nanoseconds, it divides by 1000 and changes the unit to seconds and adds it to 'time'.
+        chron.stop();           //Stop the chornometer because the time measurement is over.
 
         finish();
-        CheckBox answer_1_2 = (CheckBox) findViewById(R.id.answer_1_2);
-        //option1.isChecked() 는 리턴값이 불
+        CheckBox answer_1_2 = (CheckBox) findViewById(R.id.answer_1_2); //Declare the answer 'answer_1_2' CheckBox.
 
-        if(answer_1_2.isChecked()){
+        //The return value of option1.isChecked() is Boolean.
+        if(answer_1_2.isChecked()){     //If the correct answer is checked
             one.setOk(1);
         }
-        else{
+        else{                           //If the wrong answer is checked
             one.setNo(1);
         }
+        //From Survey1, go to Survey2.
         startActivity(new Intent(Survey1Activity.this, Survey2Activity.class));
+        //Animation effects from left to right
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
-
-
     }
 
     /**
-     * Method onKeyDown 키 처리
-     * @return 백버튼을 눌렀을 때, 아무것도 하지 않음
+     * onKeyDown.
+     * It processes event of special key such as back button or enter button.
+     * In this code, when keyCode is back, do nothing and prevent it from going back before you finish the evey survey activity.
+     * @return Do nothing when back button is pressed, other keys work normally.
+     * @param keyCode
+     * @param event
      */
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (keyCode) {

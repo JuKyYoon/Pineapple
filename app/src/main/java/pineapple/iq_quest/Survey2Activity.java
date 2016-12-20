@@ -1,6 +1,6 @@
 /**
  * 2016-12-20
- * 어플의 2번째 문제 엑티비티
+ * Second survey activity in the application
  * @author Pineapple
  * @version 1.0
  */
@@ -22,7 +22,7 @@ import static pineapple.iq_quest.Survey1Activity.time;
 
 public class Survey2Activity extends Activity{
 
-    Chronometer chron;
+    Chronometer chron; // Chronometer declaration to measure time.
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -31,43 +31,45 @@ public class Survey2Activity extends Activity{
         Intent intent = getIntent();
 
         chron = (Chronometer) findViewById(R.id.chron);
-        chron.setBase(SystemClock.elapsedRealtime());
-        chron.start();
+        chron.setBase(SystemClock.elapsedRealtime());   //Set the chronometer time.
+        chron.start();                                  //Start time measurement.
     }
 
     /**
-     * Method onClick 버튼 클릭 처리
-     * @return 정답처리, 다음 엑티비티로 넘어가기
+     * On click.
+     * The method that will handle the event when the button in the activity is pressed.
+     * I will distinguish the wrong answer or the correct answer, and then proceed to the next activity.
+     * @param view the view
      */
-
     public void onClick(View view){
-//        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
-//        startActivity(intent);
-        long current = SystemClock.elapsedRealtime() - chron.getBase();
-        time += current / 1000;
-        chron.stop();
+        long current = SystemClock.elapsedRealtime() - chron.getBase(); //Record the time when you press the answer button.
+        time += current / 1000;     //Since the unit is nanoseconds, it divides by 1000 and changes the unit to seconds and adds it to 'time'.
+        chron.stop();               //Stop the chornometer because the time measurement is over.
 
         finish();
-        CheckBox answer_2_4 = (CheckBox) findViewById(R.id.answer_2_4);
-        //option1.isChecked() 는 리턴값이 불
+        CheckBox answer_2_4 = (CheckBox) findViewById(R.id.answer_2_4); //Declare the answer 'answer_2_4' CheckBox.
 
-        if(answer_2_4.isChecked()){
+        //The return value of option1.isChecked() is Boolean.
+        if(answer_2_4.isChecked()){         //If the correct answer is checked
             LoginActivity.one.setOk(1);
         }
-        else{
+        else{                               //If the wrong answer is checked
             LoginActivity.one.setNo(1);
         }
+        //From Survey2, go to Survey3.
         startActivity(new Intent(Survey2Activity.this, Survey3Activity.class));
+        //Animation effects from left to right
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
-
-
     }
 
     /**
-     * Method onKeyDown 키 처리
-     * @return 백버튼을 눌렀을 때, 아무것도 하지 않음
+     * onKeyDown.
+     * It processes event of special key such as back button or enter button.
+     * In this code, when keyCode is back, do nothing and prevent it from going back before you finish the evey survey activity.
+     * @return Do nothing when back button is pressed, other keys work normally.
+     * @param keyCode
+     * @param event
      */
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (keyCode) {

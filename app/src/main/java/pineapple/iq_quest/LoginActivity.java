@@ -34,6 +34,11 @@ public class LoginActivity extends Activity{
 
     }
 
+    /**
+     * On click.
+     *
+     * @param view the view
+     */
     public void onClick(View view)
     {
         Intent intent = new Intent(this, Survey1Activity.class);
