@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="b68c63e9760c117cca8642a80b3503bb37255b51">
+        sha1="b62628b5c21ffee8bfeeb7e5cc73a6b5e5eafad5">
         <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7dce185d89dd62f0c8ced190219b03328a3660e/classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="213dbf7e6bb59ad156c7d1e394387528ae48f1f4">
+        sha1="3bed2dc6bfead55b097d049946e9ace0b5c7df59">
         <dex dex="/Users/wonbae/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6bf3221e5f15da77bcb0858dd8979fddb772778d/classes.dex" />
     </item>
     <item
