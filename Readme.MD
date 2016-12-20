@@ -25,7 +25,9 @@ We are students of computer engineering at Hanyang University.
 
 * This application was created using the Java and using the Android studio.
 * The open source license for this project is Apache 2.0.
- * http://www.apache.org/licenses/LICENSE-2.0
+* [![License](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Laguage](https://img.shields.io/badge/language-JAVA-red.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
 * TESTING EXAMPLE
   <-------- PICTURE ---------->
   
@@ -41,13 +43,15 @@ We are students of computer engineering at Hanyang University.
 * You should be proficient in Java.
 
 ### PROGRESS
+ * [![Issues](https://img.shields.io/badge/Issues-24-blue.svg)](https://github.com/JuKyYoon/Pineapple/issues)
+ [![Commits](https://img.shields.io/badge/commits-56-blue.svg)](https://github.com/JuKyYoon/Pineapple/commits)
+
 
  * Design
   * Team Logo : 60%
   * Application Icon : 90%
   * Loading Image : 0 %
   * Menu Background : 0% 
- 
  * Activity
   * Menu Activity 
   * Loading Activity
