@@ -30,8 +30,13 @@
         </activity>
 
 
+        <activity android:name="pineapple.iq_quest.ViewData"
+            android:theme="@style/AppTheme">
+        </activity>
 
-        
+
+
+
         <activity android:name="pineapple.iq_quest.Survey2Activity"
             android:theme="@style/AppTheme">
 

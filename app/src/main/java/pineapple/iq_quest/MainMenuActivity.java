@@ -17,14 +17,14 @@ import pineapple.for_future.R;
 
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;
-    private long lastTimeBackPressed; //마지막으로 종료버튼을 누른 시간
-
+    private long lastTimeBackPressed = 0; //마지막으로 종료버튼을 누른 시간
+    static MySQLiteOpenHelper helper = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-
+        helper = new MySQLiteOpenHelper(MainMenuActivity.this, "person.db", null, 1);
     }
 
     @Override
@@ -40,20 +40,23 @@ public class MainMenuActivity extends AppCompatActivity {
 
     public void onClick(View view){
         Intent intent = new Intent(this, LoginActivity.class);
-
+        Intent intentview = new Intent(this, ViewData.class);
 
 
         switch (view.getId()){
             case R.id.exit_button:
                 finish();
                 break;
+
+            case R.id.view:
+                startActivity(intentview);
+                break;
+
             case R.id.start:
                 startActivity(intent);
                 break;
 
-            case R.id.view:
 
-                break;
         }
     }
 

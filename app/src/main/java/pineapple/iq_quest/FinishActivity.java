@@ -53,6 +53,13 @@ public class FinishActivity extends Activity{
         String s5 = String.valueOf(pc);
         pr_pc.setText(s5+"%");
 
+        String name = LoginActivity.one.getName();
+        String iqtext = String.valueOf(iq);
+        String age = LoginActivity.one.getAge();
+
+        MainMenuActivity.helper.insert(name,age,iqtext);
+
+
 
 
     }
