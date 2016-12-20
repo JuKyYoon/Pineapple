@@ -22,6 +22,8 @@ public class FinishActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finish);
 
+        int iq = 0;
+        iq = 110 + LoginActivity.one.getOk() - ((int)time % 10);
 
         TextView pr_input_id = (TextView)findViewById(R.id.printname);
         TextView pr_input_age = (TextView)findViewById(R.id.age);
@@ -31,7 +33,7 @@ public class FinishActivity extends Activity{
 
         pr_input_id.setText(LoginActivity.one.getName());
         pr_input_age.setText(LoginActivity.one.getAge());
-
+        TextView pr_iq = (TextView)findViewById(R.id.iq);
         String s1 = String.valueOf(LoginActivity.one.getOk());
         pr_ok.setText(s1);
         String s2 = String.valueOf(LoginActivity.one.getNo());
@@ -39,6 +41,8 @@ public class FinishActivity extends Activity{
         String s3 = String.valueOf(time);
         pr_time.setText(s3);
 
+        String s4 = String.valueOf(iq);
+        pr_iq.setText(s4);
 
 
 

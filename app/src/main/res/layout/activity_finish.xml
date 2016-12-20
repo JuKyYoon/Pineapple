@@ -7,11 +7,11 @@
 
 
     <Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/back"
-    android:onClick="onClick"
-    android:text="finish"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:onClick="onClick"
+        android:text="finish"/>
 
 
     <TextView
@@ -49,5 +49,12 @@
         android:textSize="20sp"
         android:text="ex"
         android:id="@+id/timeView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="ex"
+        android:id="@+id/iq" />
+
 
 </LinearLayout>
