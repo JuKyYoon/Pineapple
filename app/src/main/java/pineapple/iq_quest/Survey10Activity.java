@@ -1,3 +1,10 @@
+/**
+ * 2016-12-20
+ * 어플의 10번째 문제 엑티비티
+ * @author Pineapple
+ * @version 1.0
+ */
+
 package pineapple.iq_quest;
 
 import android.app.Activity;
@@ -12,10 +19,6 @@ import android.widget.Chronometer;
 import pineapple.for_future.R;
 
 import static pineapple.iq_quest.Survey1Activity.time;
-
-/**
- * Created by jk on 2016. 11. 16..
- */
 
 public class Survey10Activity extends Activity{
     Chronometer chron;

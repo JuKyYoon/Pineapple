@@ -1,3 +1,10 @@
+/**
+ * 2016-12-20
+ * 어플의 메인메뉴 엑티비티
+ * @author Pineapple
+ * @version 1.0
+ */
+
 package pineapple.iq_quest;
 
 import android.content.Intent;

@@ -1,8 +1,11 @@
-package pineapple.iq_quest;
-
 /**
- * Created by jk on 2016. 11. 21..
+ * 2016-11-21
+ * 어플의 계정 관리 엑티비티
+ * @author jk
+ * @version 1.0
  */
+
+package pineapple.iq_quest;
 
 public class You{
     private String age;

@@ -1,3 +1,10 @@
+/**
+ * 2016-12-20
+ * 어플의 1번째 문제 엑티비티
+ * @author Pineapple
+ * @version 1.0
+ */
+
 package pineapple.iq_quest;
 
 import android.app.Activity;
@@ -12,11 +19,6 @@ import android.widget.Chronometer;
 import pineapple.for_future.R;
 
 import static pineapple.iq_quest.LoginActivity.one;
-
-
-/**
- * Created by jk on 2016. 11. 16..
- */
 
 public class Survey1Activity extends Activity{
 

@@ -1,3 +1,10 @@
+/**
+ * 2016-11-21
+ * 어플의 결과 창
+ * @author jk
+ * @version 1.0
+ */
+
 package pineapple.iq_quest;
 
 import android.app.Activity;
