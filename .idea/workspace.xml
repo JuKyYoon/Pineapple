@@ -10,28 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d9f7314-3710-414d-be07-b5fa29d8505b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/FinishActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/FinishActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/MainMenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/MainMenuActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey12Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey12Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey14Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey14Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey5Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey5Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey6Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey6Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java" />
     </list>
     <ignored path="Pineapple.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,92 +53,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FinishActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/FinishActivity.java">
+      <file leaf-file-name="Survey11Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="285">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
-                <element signature="e#0#92#0" expanded="true" />
+                <element signature="e#0#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Survey1Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java">
+      <file leaf-file-name="Survey10Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="72" column="7" selection-start-line="65" selection-start-column="4" selection-end-line="72" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
               <folding>
-                <element signature="e#0#102#0" expanded="true" />
+                <element signature="e#0#101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Survey2Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java">
+      <file leaf-file-name="Survey4Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="343">
+              <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding>
-                <element signature="e#0#103#0" expanded="true" />
+                <element signature="e#0#100#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Survey3Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenuActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/MainMenuActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadingActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/LoadingActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Survey20Activity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -153,6 +95,66 @@
             <state relative-caret-position="255">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Survey3Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="42" column="7" selection-start-line="35" selection-start-column="4" selection-end-line="42" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Survey9Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Survey8Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Survey7Activity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Survey5Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey5Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="81" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1915,20 +1917,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey10.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey11.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_lanking.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/MySQLiteOpenHelper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey8.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey9.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey12.xml" />
@@ -1946,13 +1938,29 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_survey1.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/ViewData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/FinishActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/MainMenuActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey5Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey14Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey12Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey6Activity.java" />
       </list>
     </option>
   </component>
@@ -2461,21 +2469,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey12Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey14Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey7.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey8.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey9.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey10.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey11.xml" />
@@ -2585,30 +2578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/ViewData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_survey14.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -2630,36 +2599,6 @@
         <state relative-caret-position="150">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="72" column="7" selection-start-line="65" selection-start-column="4" selection-end-line="72" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="59" column="44" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2687,6 +2626,214 @@
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="e#0#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey1Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="72" column="7" selection-start-line="65" selection-start-column="4" selection-end-line="72" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey2Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="46" column="96" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey20Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey19Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey18Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey17Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey16Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey15Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey14Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey13Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="83" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey12Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey11Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey10Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey9Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey8Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey5Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="81" selection-start-line="34" selection-start-column="81" selection-end-line="34" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey3Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="7" selection-start-line="35" selection-start-column="4" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey4Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/ViewData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey6Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pineapple/iq_quest/Survey7Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#100#0" expanded="true" />
           </folding>
         </state>
       </provider>

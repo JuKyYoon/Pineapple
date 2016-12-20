@@ -1,6 +1,6 @@
 /**
  * 2016-12-20
- * 어플의 15번째 문제 엑티비티
+ * 15th survey activity in the application
  * @author Pineapple
  * @version 1.0
  */
@@ -22,24 +22,26 @@ import static pineapple.iq_quest.Survey1Activity.time;
 
 
 public class Survey15Activity extends Activity{
-    Chronometer chron;
+    Chronometer chron;  // Chronometer declaration to measure time.
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey15);
-        Intent intent = getIntent();
 
         chron = (Chronometer) findViewById(R.id.chron);
-        chron.setBase(SystemClock.elapsedRealtime());
-        chron.start();
+        chron.setBase(SystemClock.elapsedRealtime());   //Set the chronometer time.
+        chron.start();                                  //Start time measurement.
     }
 
     /**
-     * Method onKeyDown 키 처리
-     * @return 백버튼을 눌렀을 때, 아무것도 하지 않음
+     * onKeyDown.
+     * It processes event of special key such as back button or enter button.
+     * In this code, when keyCode is back, do nothing and prevent it from going back before you finish the evey survey activity.
+     * @return Do nothing when back button is pressed, other keys work normally.
+     * @param keyCode
+     * @param event
      */
-
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (keyCode) {

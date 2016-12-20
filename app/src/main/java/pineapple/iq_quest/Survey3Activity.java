@@ -27,7 +27,6 @@ public class Survey3Activity extends Activity{
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_survey3);
-        Intent intent = getIntent();
 
         chron = (Chronometer) findViewById(R.id.chron);
         chron.setBase(SystemClock.elapsedRealtime());   //Set the chronometer time.
@@ -59,9 +58,9 @@ public class Survey3Activity extends Activity{
      * @param view the view
      */
     public void onClick(View view){
-        long current = SystemClock.elapsedRealtime() - chron.getBase();
-        time += current / 1000;
-        chron.stop();
+        long current = SystemClock.elapsedRealtime() - chron.getBase(); //Record the time when you press the answer button.
+        time += current / 1000;  //Since the unit is nanoseconds, it divides by 1000 and changes the unit to seconds and adds it to 'time'.
+        chron.stop();            //Stop the chornometer because the time measurement is over.
 
         finish();
         CheckBox answer_3_3 = (CheckBox) findViewById(R.id.answer_3_3); //Declare the answer 'answer_3_3' CheckBox.
