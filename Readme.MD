@@ -33,11 +33,11 @@ We are students of computer engineering at Hanyang University.
 
 * Preparation
  * Install Android Studio 
-   https://developer.android.com/studio/index.html?hl=ko
+  * https://developer.android.com/studio/index.html?hl=ko
  * Install java
-   http://www.oracle.com/technetwork/java/javase/downloads/index.html
+  * http://www.oracle.com/technetwork/java/javase/downloads/index.html
  * How to Study Android Studio
-   https://youtu.be/xO1TlHzZHFU?list=PLG7te9eYUi7vXZf7O6Fd2YCnJlx5YG9qq
+  * https://youtu.be/xO1TlHzZHFU?list=PLG7te9eYUi7vXZf7O6Fd2YCnJlx5YG9qq
 * You should be proficient in Java.
 
 ### PROGRESS
