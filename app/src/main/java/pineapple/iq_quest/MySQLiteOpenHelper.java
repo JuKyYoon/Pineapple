@@ -5,6 +5,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+/**
+ * The type My sq lite open helper.
+ * @author JuKyYoon
+ */
 public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
     // DBHelper 생성자로 관리할 DB 이름과 버전 정보를 받음
@@ -27,40 +31,60 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
     }
 
+    /**
+     * Insert.
+     * add a data into the datatable
+     * @param name the name
+     * @param age  the age
+     * @param iq   the iq
+     */
     public void insert(String name, String age, String iq) {
-        // 읽고 쓰기가 가능하게 DB 열기
-        SQLiteDatabase db = getWritableDatabase();
-        // DB에 입력한 값으로 행 추가
-        db.execSQL("INSERT INTO MONEYBOOK VALUES(null, '" + name + "', " + age + ", '" + iq + "');");
-        db.close();
+        SQLiteDatabase db = getWritableDatabase(); //open the database for writing and reading
+        db.execSQL("INSERT INTO MONEYBOOK VALUES(null, '" + name + "', " + age + ", '" + iq + "');"); //insert into datatable values
+        db.close(); //close the database
     }
 
     public void update(String name, int iq) {
         SQLiteDatabase db = getWritableDatabase();
-        // 입력한 항목과 일치하는 행의 가격 정보 수정
+
         db.execSQL("UPDATE MONEYBOOK SET price=" +iq + " WHERE item='" + name + "';");
         db.close();
     }
 
+    /**
+     * Delete.
+     * delete the specific database
+     * @param name the name
+     */
     public void delete(String name) {
         SQLiteDatabase db = getWritableDatabase();
-        // 입력한 항목과 일치하는 행 삭제
         db.execSQL("DELETE FROM MONEYBOOK WHERE item='" + name + "';");
         db.close();
     }
 
+    /**
+     * Delete all.
+     * delete all database
+     * @param
+     *
+     * @return void
+     */
     public void deleteAll() {
-        SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("DELETE FROM MONEYBOOK");
-        db.close();
+        SQLiteDatabase db = getWritableDatabase(); //open the database for writing and reading
+        db.execSQL("DELETE FROM MONEYBOOK"); //all database is deleted
+        db.close(); //close the database
     }
 
+    /**
+     * Gets result.
+     * all data is printed in the datatable using Cursor
+     * @return the result
+     */
     public String getResult() {
-        // 읽기가 가능하게 DB 열기
+
         SQLiteDatabase db = getReadableDatabase();
         String result = "";
 
-        // DB에 있는 데이터를 쉽게 처리하기 위해 Cursor를 사용하여 테이블에 있는 모든 데이터 출력
         Cursor cursor = db.rawQuery("SELECT * FROM MONEYBOOK ORDER BY iq desc", null);
         while (cursor.moveToNext()) {
             result += cursor.getString(1)

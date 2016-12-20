@@ -15,6 +15,10 @@ import android.widget.Toast;
 
 import pineapple.for_future.R;
 
+/**
+ * The type Main menu activity.
+ * @author JuKyYoon
+ */
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;
     private long lastTimeBackPressed = 0; //Last button pressed time
@@ -29,6 +33,8 @@ public class MainMenuActivity extends AppCompatActivity {
 
     /**
      * onBackPressed.
+     * if you press tha back button, toast that tell you that if application is finished back button is pressed again is appeared
+     * @return void
      */
     @Override
     public void onBackPressed(){

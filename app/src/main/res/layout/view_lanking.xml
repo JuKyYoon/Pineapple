@@ -7,6 +7,8 @@
     android:background="#f4ba31"
     android:padding="10dp">
 
+
+    <!--this layout contains delete button and back button -->
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +33,8 @@
 
     </RelativeLayout>
 
+
+     <!--ScrollView contains Textview and ImageView that is always bottom of textview -->
     <ScrollView
         android:layout_marginTop="16dp"
         android:layout_width="match_parent"

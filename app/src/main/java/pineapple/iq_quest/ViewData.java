@@ -21,6 +21,12 @@ public class ViewData extends Activity {
 
     }
 
+    /**
+     * On click.
+     *
+     * @param view the view
+     * @return void
+     */
     public void onClick(View view){
         switch (view.getId()){
             case R.id.backtomain:

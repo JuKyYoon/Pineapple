@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout">
 
+        <!-- this view contains the iq exercise -->
         <TextView
 
             android:layout_width="wrap_content"
@@ -27,7 +28,7 @@
 
 
 
-
+    <!-- this layout contains checkbok in order to check whether user's choice is corrected or not-->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
@@ -73,7 +74,7 @@
 
 
 
-
+    <!--this view means page -->
     <TextView
         android:layout_width="40dp"
         android:layout_height="50dp"
