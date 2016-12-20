@@ -28,7 +28,15 @@ public class FinishActivity extends Activity{
         int iq = 0;
         iq = 110 + LoginActivity.one.getOk() - ((int)time % 10);
 
-        double pc = (iq - 100) / 15;
+        String s5 = new String(" ");
+        if (iq < 55) { s5 = "Not Human Being";}
+        if (55 <=iq && iq < 70) { s5 = "0% - 2.3%";}
+        if (70 <=iq && iq < 85) { s5 = "2.3% - 15.9";}
+        if (85 <=iq && iq < 100) { s5 = "15.9 - 50%";}
+        if (100 <=iq && iq < 115) { s5 = "50% - 84.1%";}
+        if (115 <=iq && iq < 130) { s5 = "84.1% - 97.7%";}
+        if (130 <=iq && iq < 145) { s5 = "97.7% - 99.8%";}
+        if (145 <=iq) { s5 = "99.8 - ";}
 
         //TextView pr_input_id = (TextView)findViewById(R.id.printname);
         //TextView pr_input_age = (TextView)findViewById(R.id.age);
@@ -50,8 +58,7 @@ public class FinishActivity extends Activity{
         //pr_time.setText(s3);
         String s4 = String.valueOf(iq);
         pr_iq.setText(s4);
-        String s5 = String.valueOf(pc);
-        pr_pc.setText(s5+"%");
+        pr_pc.setText(s5);
 
         String name = LoginActivity.one.getName();
         String iqtext = String.valueOf(iq);
