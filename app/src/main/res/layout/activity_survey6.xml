@@ -6,20 +6,43 @@
     android:layout_height="fill_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
+        android:layout_margin="12dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:gravity="center">
-
-        <ImageView
-
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="317dp"
-            android:background="@drawable/problem_6"
-            android:textSize="30sp"
+            android:layout_height="wrap_content"
+            android:text="5 + 3 = 28"
+            android:textSize="23dp"/>
 
-            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 + 1 = 810"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8 + 6 = 214"
+            android:textSize="23dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5 + 4 = 19"
+            android:textSize="23dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="7 + 3 = ?"
+            android:textStyle="bold"
+            android:textSize="23dp"/>
+
+
     </LinearLayout>
 
 

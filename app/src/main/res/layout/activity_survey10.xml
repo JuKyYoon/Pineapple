@@ -8,6 +8,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
+        android:layout_margin="20dp"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:gravity="center">
@@ -16,7 +17,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="180dp"
-            android:src="@drawable/problem_10"
+            android:src="@drawable/problem10"
             android:textSize="30sp"
 
             />

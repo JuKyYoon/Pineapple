@@ -8,16 +8,19 @@
 
     <LinearLayout
         android:orientation="horizontal"
+        android:layout_margin="20dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout">
 
-        <ImageView
+        <TextView
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/problem_1"
-            android:textSize="30sp"
+            android:text="이효원은 항상 질량이 똑같은 지우개를 얻기를 원한다.
+효원이에게 1개만 무게가 다른 지우개 3333개가 주어졌다. 최악의 경우라고 가정하고 양팔저울을 사용해서 무게가 다른 지우개를 찾기로 한다.
+이때 양팔저울의 최소 사용횟수를 구하시오."
+            android:textSize="23dp"
 
             />
     </LinearLayout>

@@ -7,19 +7,19 @@
 
     <LinearLayout
         android:orientation="horizontal"
+        android:layout_margin="20dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:gravity="center">
 
-        <ImageView
 
+
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="180dp"
-            android:background="@drawable/problem_7"
-            android:textSize="30sp"
-
-            />
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="이효원이 16세 생일이던날 그의 나이는 그의 동생의 나이의 4배이다. 그렇다면 이효원이 몇살일때 동생의 나이의 두 배가 될까요?"/>
     </LinearLayout>
 
 

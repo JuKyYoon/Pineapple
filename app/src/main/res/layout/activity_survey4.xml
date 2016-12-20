@@ -7,16 +7,16 @@
 
     <LinearLayout
         android:orientation="horizontal"
+        android:layout_margin="10dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:gravity="center">
 
         <ImageView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/problem_4"
+            android:background="@drawable/problem4"
             android:textSize="30sp"
 
             />
