@@ -30,7 +30,7 @@ We are students of computer engineering at Hanyang University.
 
 * TESTING EXAMPLE
   <-------- PICTURE ---------->
-  ![Splash](http://blog.naver.com/PostView.nhn?blogId=yoongh97&Redirect=View&logNo=220891044677&categoryNo=33&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=4221&redirect=View&widgetTypeCall=true&topReferer=http%3A%2F%2Fblog.editor.naver.com%2Feditor#)
+  ![Splash](http://blogfiles.naver.net/MjAxNjEyMjFfMjYg/MDAxNDgyMjY1NzcwMzg5.Ysc9qQJWd1K-Y5FNwwV8zzCEe_X02vUIl2KqS_18RWog.d_0TWW5YLHthGQwHdSldkoCQoI0zHVTH5DtzgiuJLf0g.PNG.yoongh97/splashex.png)
 ## If you want to PARTICIPATE IN THIS PROJECT
 
 * Preparation
