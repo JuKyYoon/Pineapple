@@ -2,139 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.0_3f0e846df76509f95c747ebb5a5adb7200cf4665.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.0_5f3d6f2c4930180811194537aa5255b899e4d58f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_0f9333d162b1099ee6d31eb77b0272bb46653165.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.0_911fe5c75ddb8a457126ccc8749394fe1fff263f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_32799513c5bbe05767e2fd02b894cf0c2c8ba450.jar" />
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_219e650ec5bf527d7361aa2e131f2379ffbf7498/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.0_e40e50ac02f5d7812d601f0ab02347125a0319d9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_efa3b2b38b173b13eafa7fed4f05bca8777c1a7c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.0_387b4a6d0a31e89c1946c9286898e223a6a37bdf.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_fec895ff9a24902979a96bda9f8bbe5f9171b2d3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.0_8cce7cf8dbac5deb533277b88d56d29ab1f186bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.0_4bc1fe2c8eeb7f105abc22a5850bd60a3ca30f96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.0_0422d49825cf3caec543e0e096348fbe7be7d77b.jar" />
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.0_1658f390221cfbaea69672d078a74df893bf122b/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/HyoWon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.0_c64a3ad19a77f3540ba0060403cacdafb64ed71e.jar" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_9d78486ca8d3ae92d9fd70a6aaafeb337f8e9d1f/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4143651ed8598e49cd7b3fa7b92856ca1b693972">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_380d735879309400a80e3e57670b156db1b660ba/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4a516591d6e2ecee93fe2154b472ecd523ce8b42">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6e8dcce91c1b462df98def7c4f5ed9597f5404e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_41f4a92e08133567260047d1a0aabbc5c919c30b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.0_1120ae099e6009e4084e08bbe22bb8ace1761e6d.jar" />
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.0_6f3d94fe3fa639bcffad90f24a2f6649d73c70f1/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.0_03c4b13d76e732cb6eff87277de40afd1ed2fee1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_186e448584dee9111acd6f0a1497c2389f2580e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.0_36e94776695c2d0e6282a554ec0336b0b4d67358/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_bb05a26c9a1c6f321c3d60fd9e2339f3bead18dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.0/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/jk/AndroidStudioProjects/Pineapple/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.0_643dcefb450c14f33ffe48a715849e27dc6d3d89.jar" />
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b74b21d7d9401434f552b74d4602335099a5ed5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.0_4cad111618db38f8c3bec8702e83f3bb2b7a78ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.0_ce6b9814a239bcc4ae4a9ebbbfb0f0b617786ddd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.0_271932c3a4400e17829912b250b4d689c6f0b964/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.0_70f17ed793a0f9eb2c17538da69d5ffa03b26ce5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/HyoWon/AndroidStudioProjects/Pineapple/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.0_1af185882bce7f7ea93c9bd4d77ae147c807bfb0/classes.dex" />
     </item>
 
 </items>

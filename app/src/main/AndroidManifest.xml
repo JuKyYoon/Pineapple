@@ -64,6 +64,18 @@
             android:theme="@style/AppTheme">
 
         </activity>
+        <activity android:name="pineapple.iq_quest.Survey6Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey7Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey8Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
     </application>
 
 </manifest>
