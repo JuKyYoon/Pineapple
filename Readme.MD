@@ -29,8 +29,8 @@ We are students of computer engineering at Hanyang University.
 [![Laguage](https://img.shields.io/badge/language-JAVA-red.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 * TESTING EXAMPLE
-  <-------- PICTURE ---------->
-  
+  <-------- PICTURE ---------->
+  ![Splash](http://blog.naver.com/PostView.nhn?blogId=yoongh97&Redirect=View&logNo=220891044677&categoryNo=33&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=4221&redirect=View&widgetTypeCall=true&topReferer=http%3A%2F%2Fblog.editor.naver.com%2Feditor#)
 ## If you want to PARTICIPATE IN THIS PROJECT
 
 * Preparation
@@ -43,15 +43,15 @@ We are students of computer engineering at Hanyang University.
 * You should be proficient in Java.
 
 ### PROGRESS
- * [![Issues](https://img.shields.io/badge/Issues-24-blue.svg)](https://github.com/JuKyYoon/Pineapple/issues)
- [![Commits](https://img.shields.io/badge/commits-56-blue.svg)](https://github.com/JuKyYoon/Pineapple/commits)
+ * [![Issues](https://img.shields.io/badge/Issues-30-blue.svg)](https://github.com/JuKyYoon/Pineapple/issues)
+ [![Commits](https://img.shields.io/badge/commits-70-blue.svg)](https://github.com/JuKyYoon/Pineapple/commits)
 
 
  * Design
-  * Team Logo : 60%
-  * Application Icon : 90%
-  * Loading Image : 0 %
-  * Menu Background : 0% 
+  * Team Logo : 100%
+  * Application Icon : 100%
+  * Loading Image : 100 %
+  * Menu Background : 100% 
  * Activity
   * Menu Activity 
   * Loading Activity
