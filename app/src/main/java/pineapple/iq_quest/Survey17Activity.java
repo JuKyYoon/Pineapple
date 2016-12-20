@@ -61,10 +61,10 @@ public class Survey17Activity extends Activity{
         chron.stop();
 
         finish();
-        CheckBox answer_17_3 = (CheckBox) findViewById(R.id.answer_17_3);
+        CheckBox answer_17_2 = (CheckBox) findViewById(R.id.answer_17_2);
         //option1.isChecked() 는 리턴값이 불
 
-        if(answer_17_3.isChecked()){
+        if(answer_17_2.isChecked()){
             LoginActivity.one.setOk(1);
         }
         else{

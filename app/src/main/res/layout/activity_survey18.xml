@@ -35,28 +35,28 @@
         android:id="@+id/linearLayout5">
 
         <CheckBox
-            android:text="B"
+            android:text="345617829"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/answer_18_1"
             android:onClick="onClick" />
 
         <CheckBox
-            android:text="Q"
+            android:text="123456789"
             android:layout_width="67dp"
             android:layout_height="wrap_content"
             android:id="@+id/answer_18_2"
             android:onClick="onClick" />
 
         <CheckBox
-            android:text="L"
+            android:text="987654321"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/answer_18_3"
             android:onClick="onClick"/>
 
         <CheckBox
-            android:text="O"
+            android:text="0123456789"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/answer_18_4"
