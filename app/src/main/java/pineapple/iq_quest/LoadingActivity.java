@@ -16,7 +16,7 @@ public class LoadingActivity extends Activity {
         super.onCreate(saveInstanceState);
         try{
             //2초 대기
-            Thread.sleep(1000);
+            Thread.sleep(2000);
 
         }
 
