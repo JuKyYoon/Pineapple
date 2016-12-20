@@ -18,7 +18,7 @@ public class ViewData extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.view_lanking);
-        MySQLiteOpenHelper dbHelper = MainMenuActivity.helper;
+        MySQLiteOpenHelper dbHelper = MainMenuActivity.helper; //make a SQLiteopenhelper
 
         TextView result_text = (TextView)findViewById(R.id.result);
         result_text.setText(dbHelper.getResult());
@@ -27,7 +27,8 @@ public class ViewData extends Activity {
 
     /**
      * On click.
-     *
+     * if backtomain is clicked, this activity is finished
+     * if delete button is clicked, all database is deleted
      * @param view the view
      * @return void
      */
