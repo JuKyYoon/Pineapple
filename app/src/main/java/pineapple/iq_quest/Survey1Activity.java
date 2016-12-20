@@ -35,6 +35,11 @@ public class Survey1Activity extends Activity{
         chron.start();                                  //
     }
 
+    /**
+     * Method onClick 버튼 클릭 처리
+     * @return 정답처리, 다음 엑티비티로 넘어가기
+     */
+
     public void onClick(View view){
 //        Intent intent = new Intent(getApplicationContext(), Survey2Activity.class);
 //        startActivity(intent);
@@ -57,6 +62,11 @@ public class Survey1Activity extends Activity{
 
 
     }
+
+    /**
+     * Method onKeyDown 키 처리
+     * @return 백버튼을 눌렀을 때, 아무것도 하지 않음
+     */
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
