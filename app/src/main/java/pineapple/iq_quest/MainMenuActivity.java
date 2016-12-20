@@ -15,7 +15,6 @@ import android.widget.Toast;
 
 import pineapple.for_future.R;
 
-
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;
     private long lastTimeBackPressed; //마지막으로 종료버튼을 누른 시간

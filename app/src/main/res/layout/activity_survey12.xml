@@ -74,7 +74,7 @@
     <TextView
         android:layout_width="40dp"
         android:layout_height="50dp"
-        android:text="7/20"
+        android:text="12/20"
         android:id="@+id/page"
         android:textSize="15sp"
         android:textColor="#000000"
