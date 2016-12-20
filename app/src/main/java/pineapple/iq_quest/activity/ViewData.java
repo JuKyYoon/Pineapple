@@ -51,7 +51,7 @@ public class ViewData extends Activity {
         for(pineapple.iq_quest.data.InfoClass i : mInfoArray){
             pineapple.iq_quest.util.DLog.d(TAG, "ID = " + i._id);
             pineapple.iq_quest.util.DLog.d(TAG, "name = " + i.name);
-            pineapple.iq_quest.util.DLog.d(TAG, "contact = " + i.contact);
+            pineapple.iq_quest.util.DLog.d(TAG, "old = " + i.old);
             pineapple.iq_quest.util.DLog.d(TAG, "email = " + i.email);
         }
 
@@ -109,7 +109,7 @@ public class ViewData extends Activity {
             mInfoClass = new pineapple.iq_quest.data.InfoClass(
                     mCursor.getInt(mCursor.getColumnIndex("_id")),
                     mCursor.getString(mCursor.getColumnIndex("name")),
-                    mCursor.getString(mCursor.getColumnIndex("contact")),
+                    mCursor.getString(mCursor.getColumnIndex("old")),
                     mCursor.getString(mCursor.getColumnIndex("email"))
             );
 

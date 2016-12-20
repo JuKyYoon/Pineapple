@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
+
 public class DbOpenHelper {
 
 	private static final String DATABASE_NAME = "addressbook.db";
@@ -54,19 +55,19 @@ public class DbOpenHelper {
 	}
 
 	// Insert DB
-	public long insertColumn(String name, String contact, String email){
+	public long insertColumn(String name, String old, String email){
 		ContentValues values = new ContentValues();
 		values.put(pineapple.iq_quest.database.DataBases.CreateDB.NAME, name);
-		values.put(pineapple.iq_quest.database.DataBases.CreateDB.CONTACT, contact);
+		values.put(pineapple.iq_quest.database.DataBases.CreateDB.OLD, old);
 		values.put(pineapple.iq_quest.database.DataBases.CreateDB.EMAIL, email);
 		return mDB.insert(pineapple.iq_quest.database.DataBases.CreateDB._TABLENAME, null, values);
 	}
 
 	// Update DB
-	public boolean updateColumn(long id , String name, String contact, String email){
+	public boolean updateColumn(long id , String name, String old, String email){
 		ContentValues values = new ContentValues();
 		values.put(pineapple.iq_quest.database.DataBases.CreateDB.NAME, name);
-		values.put(pineapple.iq_quest.database.DataBases.CreateDB.CONTACT, contact);
+		values.put(pineapple.iq_quest.database.DataBases.CreateDB.OLD, old);
 		values.put(pineapple.iq_quest.database.DataBases.CreateDB.EMAIL, email);
 		return mDB.update(pineapple.iq_quest.database.DataBases.CreateDB._TABLENAME, values, "_id="+id, null) > 0;
 	}
@@ -76,9 +77,9 @@ public class DbOpenHelper {
 		return mDB.delete(pineapple.iq_quest.database.DataBases.CreateDB._TABLENAME, "_id="+id, null) > 0;
 	}
 	
-	// Delete Contact
+	// Delete Old
 	public boolean deleteColumn(String number){
-		return mDB.delete(pineapple.iq_quest.database.DataBases.CreateDB._TABLENAME, "contact="+number, null) > 0;
+		return mDB.delete(pineapple.iq_quest.database.DataBases.CreateDB._TABLENAME, "old="+number, null) > 0;
 	}
 	
 	// Select All

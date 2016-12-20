@@ -48,7 +48,7 @@ public class CustomAdapter extends BaseAdapter{
 			viewHolder = new ViewHolder();
 			v = inflater.inflate(R.layout.list_row, null);
 			viewHolder.name = (TextView)v.findViewById(R.id.tv_name);
-			viewHolder.contact = (TextView)v.findViewById(R.id.tv_contact);
+			viewHolder.old = (TextView)v.findViewById(R.id.tv_old);
 			viewHolder.email = (TextView)v.findViewById(R.id.tv_email);
 			v.setTag(viewHolder);
 			
@@ -57,7 +57,7 @@ public class CustomAdapter extends BaseAdapter{
 		}
 		
 		viewHolder.name.setText(infoList.get(position).name);
-		viewHolder.contact.setText(infoList.get(position).contact);
+		viewHolder.old.setText(infoList.get(position).old);
 		viewHolder.email.setText(infoList.get(position).email);
 		
 		return v;
@@ -77,7 +77,7 @@ public class CustomAdapter extends BaseAdapter{
 	 */
 	class ViewHolder{
 		TextView name;
-		TextView contact;
+		TextView old;
 		TextView email;
 	}
 	

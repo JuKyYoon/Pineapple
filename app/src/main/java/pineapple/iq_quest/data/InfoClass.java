@@ -1,17 +1,18 @@
 package pineapple.iq_quest.data;
 
+
 public class InfoClass {
 	public int _id;
 	public String name;
-	public String contact;
+	public String old;
 	public String email;
 	
 	public InfoClass(){}
 	
-	public InfoClass(int _id , String name , String contact , String email){
+	public InfoClass(int _id , String name , String old , String email){
 		this._id = _id;
 		this.name = name;
-		this.contact = contact;
+		this.old = old;
 		this.email = email;
 	}
 	

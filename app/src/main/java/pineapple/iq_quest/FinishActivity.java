@@ -96,7 +96,7 @@ public class FinishActivity extends Activity{
         for(InfoClass i : mInfoArray){
             DLog.d(TAG, "ID = " + i._id);
             DLog.d(TAG, "name = " + i.name);
-            DLog.d(TAG, "contact = " + i.contact);
+            DLog.d(TAG, "old = " + i.old);
             DLog.d(TAG, "email = " + i.email);
         }
 
@@ -123,7 +123,7 @@ public class FinishActivity extends Activity{
             mInfoClass = new InfoClass(
                     mCursor.getInt(mCursor.getColumnIndex("_id")),
                     mCursor.getString(mCursor.getColumnIndex("name")),
-                    mCursor.getString(mCursor.getColumnIndex("contact")),
+                    mCursor.getString(mCursor.getColumnIndex("old")),
                     mCursor.getString(mCursor.getColumnIndex("email"))
             );
 
