@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import pineapple.for_future.R;
-import pineapple.iq_quest.activity.ViewData;
+
 
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;
@@ -34,7 +34,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
     public void onClick(View view){
         Intent intent = new Intent(this, LoginActivity.class);
-        Intent data = new Intent(this, ViewData.class);
+
 
 
         switch (view.getId()){
@@ -46,7 +46,7 @@ public class MainMenuActivity extends AppCompatActivity {
                 break;
 
             case R.id.view:
-                startActivity(data);
+
                 break;
         }
     }

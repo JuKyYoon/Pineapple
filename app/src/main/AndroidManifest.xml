@@ -29,10 +29,8 @@
 
         </activity>
 
-        <activity android:name="pineapple.iq_quest.activity.ViewData"
-            android:theme="@style/AppTheme">
 
-        </activity>
+
         
         <activity android:name="pineapple.iq_quest.Survey2Activity"
             android:theme="@style/AppTheme">
@@ -73,6 +71,54 @@
 
         </activity>
         <activity android:name="pineapple.iq_quest.Survey8Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey9Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey10Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey11Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey12Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey13Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey14Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey15Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey16Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey17Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey18Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey19Activity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="pineapple.iq_quest.Survey20Activity"
             android:theme="@style/AppTheme">
 
         </activity>

@@ -57,7 +57,7 @@ public class Survey8Activity extends Activity{
         else{
             LoginActivity.one.setNo(1);
         }
-        startActivity(new Intent(Survey8Activity.this,FinishActivity.class));
+        startActivity(new Intent(Survey8Activity.this,Survey9Activity.class));
         overridePendingTransition(R.anim.anim_slide_in_right, R.anim.anim_slide_out_left);
 
 
