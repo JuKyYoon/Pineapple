@@ -40,10 +40,10 @@ We are students of computer engineering at Hanyang University.
 ![View](http://blogfiles.naver.net/MjAxNjEyMjFfNjMg/MDAxNDgyMjY2MjQ2ODgz.i4Khoflt-DOb2Bc8Mo1UqwvbggsVHcGBCiJbFoLUqGYg.RrE0dRrnfMKr3FkFRxtx2C6hi1tL8liQBu2ilfxNa3Ug.PNG.yoongh97/view.png)
 
 ## Contributers
-*Team name = : PineApple
- *JuKyYoon (Yoon Ju Kyung): Main Development and Main Design
- *waristo (Kim Won Bae) : Sub Development and write a Document
- *recorder08 (Lee Hyo Won) : Suggest the idea and etc
+* Team name = : PineApple
+ * JuKyYoon (Yoon Ju Kyung): Main Development and Main Design
+ * waristo (Kim Won Bae) : Sub Development and write a Document
+ * recorder08 (Lee Hyo Won) : Suggest the idea and etc
 
 ## If you want to PARTICIPATE IN THIS PROJECT
 
