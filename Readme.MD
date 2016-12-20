@@ -31,10 +31,9 @@ We are students of computer engineering at Hanyang University.
 * TESTING EXAMPLE
   
 * ![Splash](http://blogfiles.naver.net/MjAxNjEyMjFfMjYg/MDAxNDgyMjY1NzcwMzg5.Ysc9qQJWd1K-Y5FNwwV8zzCEe_X02vUIl2KqS_18RWog.d_0TWW5YLHthGQwHdSldkoCQoI0zHVTH5DtzgiuJLf0g.PNG.yoongh97/splashex.png)
-* ![Main](http://blogfiles.naver.net/MjAxNjEyMjFfMTc1/MDAxNDgyMjY2MjQ2NTA4.rLmnoXrWh9WEhYB9ioUTe7WE-J3PtVJH4wOvJGCL3XMg.MaruRFgdD60xf2kJ5zzZp0g0JY_wM4CL4vGHGGCBR0Qg.PNG.yoongh97/main.png)
-* ![Register](http://blogfiles.naver.net/MjAxNjEyMjFfMjky/MDAxNDgyMjY2MjQ3MTUw.XUGh-vzmwr1GZ7JeafAzUDGqRGCUwFDlkgsDtIA-eqMg.nNNm1JYbNICkjeisGdnHTpyRyrVDaf_4PcB7QKT4FSgg.PNG.yoongh97/login.png)
-* ![Survey](http://blogfiles.naver.net/MjAxNjEyMjFfMjc0/MDAxNDgyMjY2MjQ2Njk5.JcZBPYcjJQTIGlcOw9zhlkiydDdSVzqtCjesNhJC6ngg.bqanN6YEb6nluojqTIBLYjoH4e2gA2O0O5w1fxcae5gg.PNG.yoongh97/surveysample.png)
-* ![Result](http://blogfiles.naver.net/MjAxNjEyMjFfNDIg/MDAxNDgyMjY2MjQ2NTIz.a6hVTadoZzhkudqdPGR4a-2RIgj0ANZv3GkTQjr5Ne8g.DJVz2RgE6Mk8HNlD0XJQM63MW9CeWfwclds-SFij8iog.PNG.yoongh97/result.png)
+![Main](http://blogfiles.naver.net/MjAxNjEyMjFfMTc1/MDAxNDgyMjY2MjQ2NTA4.rLmnoXrWh9WEhYB9ioUTe7WE-J3PtVJH4wOvJGCL3XMg.MaruRFgdD60xf2kJ5zzZp0g0JY_wM4CL4vGHGGCBR0Qg.PNG.yoongh97/main.png)
+* ![Register](http://blogfiles.naver.net/MjAxNjEyMjFfMjky/MDAxNDgyMjY2MjQ3MTUw.XUGh-vzmwr1GZ7JeafAzUDGqRGCUwFDlkgsDtIA-eqMg.nNNm1JYbNICkjeisGdnHTpyRyrVDaf_4PcB7QKT4FSgg.PNG.yoongh97/login.png) * ![Survey](http://blogfiles.naver.net/MjAxNjEyMjFfMjc0/MDAxNDgyMjY2MjQ2Njk5.JcZBPYcjJQTIGlcOw9zhlkiydDdSVzqtCjesNhJC6ngg.bqanN6YEb6nluojqTIBLYjoH4e2gA2O0O5w1fxcae5gg.PNG.yoongh97/surveysample.png) 
+![Result](http://blogfiles.naver.net/MjAxNjEyMjFfNDIg/MDAxNDgyMjY2MjQ2NTIz.a6hVTadoZzhkudqdPGR4a-2RIgj0ANZv3GkTQjr5Ne8g.DJVz2RgE6Mk8HNlD0XJQM63MW9CeWfwclds-SFij8iog.PNG.yoongh97/result.png)
 * ![View](http://blogfiles.naver.net/MjAxNjEyMjFfNjMg/MDAxNDgyMjY2MjQ2ODgz.i4Khoflt-DOb2Bc8Mo1UqwvbggsVHcGBCiJbFoLUqGYg.RrE0dRrnfMKr3FkFRxtx2C6hi1tL8liQBu2ilfxNa3Ug.PNG.yoongh97/view.png)
 ## If you want to PARTICIPATE IN THIS PROJECT
 
