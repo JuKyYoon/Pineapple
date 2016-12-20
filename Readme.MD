@@ -9,6 +9,7 @@ IQ Quest is an opensource Android Application for simple testing of IQs.
 * IQ Quest is convenient app that the people (who don’t have a time to inspect IQ at the professional institution)
   can easily measure their IQ in the room.
 * We focused on making the application easy and convenient. 
+* Our goal is making a simple applicaton. This can be a great opportunity for us to build on our experience and experience as a developer.
  
 ## PROJECT TEAM INTRODUCTION
 
@@ -24,6 +25,7 @@ We are students of computer engineering at Hanyang University.
 ## PROJECT INFO
 
 * This application was created using the Java and using the Android studio.
+* But this application is only android application and no english version yet.
 * The open source license for this project is Apache 2.0.
 * [![License](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 [![Laguage](https://img.shields.io/badge/language-JAVA-red.svg)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -36,6 +38,13 @@ We are students of computer engineering at Hanyang University.
 ![Survey](http://blogfiles.naver.net/MjAxNjEyMjFfMjc0/MDAxNDgyMjY2MjQ2Njk5.JcZBPYcjJQTIGlcOw9zhlkiydDdSVzqtCjesNhJC6ngg.bqanN6YEb6nluojqTIBLYjoH4e2gA2O0O5w1fxcae5gg.PNG.yoongh97/surveysample.png) 
 *![Result](http://blogfiles.naver.net/MjAxNjEyMjFfNDIg/MDAxNDgyMjY2MjQ2NTIz.a6hVTadoZzhkudqdPGR4a-2RIgj0ANZv3GkTQjr5Ne8g.DJVz2RgE6Mk8HNlD0XJQM63MW9CeWfwclds-SFij8iog.PNG.yoongh97/result.png)
 ![View](http://blogfiles.naver.net/MjAxNjEyMjFfNjMg/MDAxNDgyMjY2MjQ2ODgz.i4Khoflt-DOb2Bc8Mo1UqwvbggsVHcGBCiJbFoLUqGYg.RrE0dRrnfMKr3FkFRxtx2C6hi1tL8liQBu2ilfxNa3Ug.PNG.yoongh97/view.png)
+
+## Contributers
+*Team name = : PineApple
+ *JuKyYoon (Yoon Ju Kyung): Main Development and Main Design
+ *waristo (Kim Won Bae) : Sub Development and write a Document
+ *recorder08 (Lee Hyo Won) : Suggest the idea and etc
+
 ## If you want to PARTICIPATE IN THIS PROJECT
 
 * Preparation
