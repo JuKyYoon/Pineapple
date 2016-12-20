@@ -50,7 +50,7 @@ public class Survey20Activity extends Activity{
         finish();
         CheckBox answer_20_3 = (CheckBox) findViewById(R.id.answer_20_3);
         //option1.isChecked() 는 리턴값이 불
-
+        // c
         if(answer_20_3.isChecked()){
             LoginActivity.one.setOk(1);
         }
