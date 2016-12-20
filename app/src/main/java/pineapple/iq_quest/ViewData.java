@@ -8,6 +8,10 @@ import android.widget.TextView;
 import pineapple.for_future.R;
 
 
+/**
+ * The type View data.
+ * @author JuKyung
+ */
 public class ViewData extends Activity {
 
     @Override

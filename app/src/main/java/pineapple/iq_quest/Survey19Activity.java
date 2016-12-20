@@ -20,6 +20,9 @@ import pineapple.for_future.R;
 
 import static pineapple.iq_quest.Survey1Activity.time;
 
+/**
+ * The type Survey 19 activity.
+ */
 public class Survey19Activity extends Activity{
     Chronometer chron;  // Chronometer declaration to measure time.
 
