@@ -17,7 +17,7 @@
 
             android:layout_width="wrap_content"
             android:layout_height="180dp"
-            android:background="@drawable/problem11"
+            android:src="@drawable/problem11"
             android:textSize="30sp"
 
             />

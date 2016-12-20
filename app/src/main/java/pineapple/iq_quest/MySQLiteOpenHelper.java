@@ -66,7 +66,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
             result += cursor.getString(1)
                     + " | "
                     + cursor.getInt(2)
-                    + "살 "
+                    + "살 | IQ = "
                     + cursor.getString(3)
                     + "\n";
         }
