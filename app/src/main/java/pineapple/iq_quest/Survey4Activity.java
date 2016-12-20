@@ -49,10 +49,10 @@ public class Survey4Activity extends Activity{
         chron.stop();
 
         finish();
-        CheckBox answer_4_2 = (CheckBox) findViewById(R.id.answer_4_2);
+        CheckBox answer_4_3 = (CheckBox) findViewById(R.id.answer_4_3);
         //option1.isChecked() 는 리턴값이 불
 
-        if(answer_4_2.isChecked()){
+        if(answer_4_3.isChecked()){
             one.setOk(1);
         }
         else{
