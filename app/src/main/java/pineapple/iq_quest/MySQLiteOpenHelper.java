@@ -1,3 +1,9 @@
+/**
+ * The type My sq lite open helper.
+ *
+ * @author JuKyYoon
+ */
+
 package pineapple.iq_quest;
 
 import android.content.Context;
@@ -5,11 +11,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * The type My sq lite open helper.
- *
- * @author JuKyYoon
- */
 public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 
     /**

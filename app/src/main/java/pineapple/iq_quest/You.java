@@ -1,6 +1,6 @@
 /**
  * 2016-11-21
- * 어플의 계정 관리 엑티비티
+ * Account Management activity
  * @author jk
  * @version 1.0
  */

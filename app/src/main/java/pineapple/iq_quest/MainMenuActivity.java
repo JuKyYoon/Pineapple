@@ -1,7 +1,7 @@
 /**
  * 2016-12-20
- * 어플의 메인메뉴 엑티비티
- * @author Pineapple
+ * Main menu activity in the application
+ * @author JuKyYoon
  * @version 1.0
  */
 
@@ -15,10 +15,6 @@ import android.widget.Toast;
 
 import pineapple.for_future.R;
 
-/**
- * The type Main menu activity.
- * @author JuKyYoon
- */
 public class MainMenuActivity extends AppCompatActivity {
     static int num = 0;
     private long lastTimeBackPressed = 0; //Last button pressed time

@@ -1,3 +1,10 @@
+/**
+ * 2016-12-20
+ * view data activity in the application
+ * @author JuKyYoon
+ * @version 1.0
+ */
+
 package pineapple.iq_quest;
 
 import android.app.Activity;
@@ -7,11 +14,6 @@ import android.widget.TextView;
 
 import pineapple.for_future.R;
 
-
-/**
- * The type View data.
- * @author JuKyung
- */
 public class ViewData extends Activity {
 
     @Override

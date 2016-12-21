@@ -15,7 +15,7 @@ public class LoadingActivity extends Activity {
     public void onCreate(Bundle saveInstanceState){
         super.onCreate(saveInstanceState);
         try{
-            //2초 대기
+            //Wait 2 seconds.
             Thread.sleep(2000);
 
         }
@@ -23,7 +23,7 @@ public class LoadingActivity extends Activity {
         catch(InterruptedException e){
             e.printStackTrace();
         }
-
+            //Go to main activity
         startActivity(new Intent(this,MainMenuActivity.class));
         finish();
     }

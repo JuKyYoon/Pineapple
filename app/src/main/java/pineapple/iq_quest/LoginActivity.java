@@ -20,10 +20,6 @@ import pineapple.for_future.R;
 
 import static pineapple.iq_quest.MainMenuActivity.num;
 
-/**
- * Created by jk on 2016. 11. 21..
- */
-
 public class LoginActivity extends Activity{
     static You one;
 
@@ -47,31 +43,31 @@ public class LoginActivity extends Activity{
         String id = input_id.getText().toString();
         String age = password.getText().toString();
 
-        //엔터키 제어
+        //Controls the Enter key.
         input_id.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 switch (actionId) {
+                    //Next action. After entering the name, press the Enter key to move to the age box.
                     case EditorInfo.IME_ACTION_NEXT:
-                        // 다음 동작
                         break;
                     default:
-                        // 기본 엔터키 동작
+                        // Basic Enter key action
                         return false;
                 }
                 return true;
             }
         });
-
+        //Controls the Enter key.
         password.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 switch (actionId) {
                     case EditorInfo.IME_ACTION_DONE:
-                        // 완료 동작
+                        //Press the Enter key to end the input.
                         break;
                     default:
-                        // 기본 엔터키 동작
+                        // Basic Enter key action
                         return false;
                 }
                 return true;
