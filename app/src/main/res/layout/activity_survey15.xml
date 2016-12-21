@@ -6,17 +6,23 @@
     android:layout_height="fill_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
+        android:layout_margin="10dp"
         android:gravity="center">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="아래 도형의 동그라미 속에는 1~7사이 자연수가 한번씩만 들어가고,
+동그라미 사이에는 변을 둘러싸고 있는 동그라미 속 숫자를 모두 합한 값이 들어간다. 그럼?에 들어갈 숫자는 ?"/>
         <ImageView
 
             android:layout_width="wrap_content"
             android:layout_height="180dp"
-            android:background="@drawable/problem_15"
+            android:background="@drawable/problem15"
             android:textSize="30sp"
 
             />

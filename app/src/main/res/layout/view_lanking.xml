@@ -14,18 +14,20 @@
         android:layout_height="wrap_content"
         >
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:textSize="20dp"
             android:id="@+id/delete"
+            android:background="#ffffff"
             android:text="DELETE"
             android:onClick="onClick"
             />
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="70dp"
 
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:id="@+id/backtomain"
+            android:background="#ffffff"
             android:onClick="onClick"
             android:text="back"
             android:textSize="20dp"

@@ -6,17 +6,22 @@
     android:layout_height="fill_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="13dp"
         android:id="@+id/linearLayout"
         android:gravity="center">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23dp"
+            android:text="8개의 크기가 완전히 같은 정사각형 모양의 종이를 함께 겹쳐 놓았을때 가장 밑에 있는 종이는?"/>
         <ImageView
 
             android:layout_width="wrap_content"
             android:layout_height="180dp"
-            android:background="@drawable/problem_17"
+            android:background="@drawable/problem17"
             android:textSize="30sp"
 
             />

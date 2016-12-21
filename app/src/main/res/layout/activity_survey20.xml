@@ -6,17 +6,21 @@
     android:layout_height="fill_parent">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout"
         android:gravity="center">
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="어느 그림이 누락되었는가?"
+            android:textSize="23dp"/>
         <ImageView
 
             android:layout_width="wrap_content"
             android:layout_height="180dp"
-            android:background="@drawable/problem_20"
+            android:background="@drawable/problem20"
             android:textSize="30sp"
 
             />
