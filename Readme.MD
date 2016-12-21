@@ -58,7 +58,7 @@ We are students of computer engineering at Hanyang University.
 
 ### PROGRESS
  * [![Issues](https://img.shields.io/badge/Issues-30-blue.svg)](https://github.com/JuKyYoon/Pineapple/issues)
- [![Commits](https://img.shields.io/badge/commits-70-blue.svg)](https://github.com/JuKyYoon/Pineapple/commits)
+ [![Commits](https://img.shields.io/badge/commits-83-blue.svg)](https://github.com/JuKyYoon/Pineapple/commits)
 
 
  * Design
@@ -67,10 +67,13 @@ We are students of computer engineering at Hanyang University.
   * Loading Image : 100 %
   * Menu Background : 100% 
  * Activity
-  * Menu Activity 
-  * Loading Activity
+  * Loading Activity 
+  * Main Activity
   * Survey Activity 
- 
+  * Finish Activity
+  * View Activity
+  * Data Activity
+  
 ### TO BE UPDATED...
   
  * Put an beta version of IQ Quest on the market.
@@ -79,3 +82,4 @@ We are students of computer engineering at Hanyang University.
   * Increase the number of questions.
   * The interface is updated more conveniently and more stylish.
  * After creating the Android version, we create the iOS version.
+ * Also creates an English-language version, making the application available to many.
